@@ -1,0 +1,411 @@
+body{
+    font-family:'PT sans', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+nav{
+    
+        height: 40px;
+        width: 100%;
+        position:relative;
+}
+
+a{
+    text-decoration: none;
+    color:  #252529;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul{
+    margin: 0;
+        padding: 0;
+    }
+
+nav li{
+        display: inline;
+    }
+
+    .logo{
+        max-width: 100px;
+        margin-top: 10px;
+
+    }
+
+    nav a{
+        display: flexbox;
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    .right-nav{
+        display: inline;
+        float: right;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    .login{
+    background-color: red;
+    text-align: center;
+    height: 40px;
+    }
+    .btn-book{
+        background-color: red;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        border-color: red;
+        cursor: pointer;
+
+
+    }
+    .btn-login{
+        background-color: blue;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        border-color:blue;
+        cursor: pointer;}
+        
+       span h1{
+           text-align: center;
+           margin: -150px;;
+           padding: auto;
+       }
+
+         .container{
+             height: 500px;
+            width: 100%;
+            background-image: url(/images/Rectangle1.png);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: contain;
+        margin-top: 100px;
+
+}
+        
+        
+
+    .dot{
+        height: 200px;
+        width: 600px;
+        background-image: url(/images/dots-bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: -72px;
+        margin-left: 170px;
+    
+    }
+
+    .pic-right{
+        height: 600px;
+        width: 430px;
+        color: black;
+        background-image: url(/images/Rectangle41.png);
+        background-repeat: no-repeat;
+        float: right;
+        font-size: 15px;
+        margin-top: -350px;
+        margin-right: 200px;
+        background-color: whitesmoke;
+    }
+
+    .middle-contain{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .pic-right,h3{display: inline;
+        text-align: center;
+
+    }
+    .pic-right img{
+        float: left;
+
+    }
+
+    p{
+        text-align: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: lighter;
+        margin: 2px;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 12px;
+        font-weight: lighter;
+        
+    }
+    .btn-select{
+        background-color: #098fe7;
+        color: white;
+        border-radius: 2px;
+        border-color:#01263f ;
+        height: 30px;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .pic-left{
+
+        height: 400px;
+        width: 400px;
+           display: inline;
+        float: left;
+        font-size: 15px;
+        margin-top: -350px;
+        margin-left: 200px;}
+
+
+        .middle{
+            margin-top: 300px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+    justify-content: space-evenly;
+            margin-left: 40px;
+        display: flex;
+        }
+
+    .leftbox{
+        background-image: url(/images/Rectangle41.png);
+        height: 850px;
+        width: 450px;
+        background-repeat: no-repeat;
+
+    }
+
+    .midbox{
+        
+            background-image: url(/images/Rectangle41.png);
+           background-size: 850px;
+           height: 800px;
+            width: 450px;
+            background-repeat: no-repeat;
+
+        }
+    .rightbox{
+        background-image: url(/images/Rectangle41.png);
+        height: 750px;
+        width: 450px;
+        background-repeat: no-repeat;
+        float: right;
+    
+    }
+
+    .prise1{
+        margin-left: 70px;
+        justify-content: center;
+        text-align: center;
+        float: inline-start;
+        color: black;
+    }
+    .middle-center,.middle-low{
+        text-align:center;
+        color: black;
+        font-size: 0.8rem;
+        border: dotted rgb(43, 42, 42) 0.5px;
+    border-style: none;
+         border-radius: 12px;
+        font-weight: bold;
+        padding: 12px;
+    }
+    
+
+
+    
+    .middle-low1 img{
+        float: left;
+        margin-left: 30px;
+        height: 15px;
+
+    }
+
+   .middle-low1 p{
+        text-align: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: lighter;
+        color: black;}
+
+        
+
+        .btn-select1{
+            background-color: #098fe7;
+            color: white;
+            border-radius: 2px;
+            border-color:#01263f ;
+            height: 30px;
+            cursor: pointer;
+            align-items: center;
+            margin:5px 130px;
+            margin-bottom: 50px;
+        }
+
+        .btn-up{
+            align-items: top center;
+            margin: 0;
+            margin-left: 150px;
+            color:white;
+            background-color: red;
+            font-size: 30px;
+            border-radius: 10px;
+            border-color:red ;
+        }
+
+        .btn-up1{
+            align-items: top center;
+            margin: 0;
+            margin-left: 100px;
+            color:white;
+            background-color: red;
+            font-size: 30px;
+            border-radius: 10px;
+            border-color:red ;
+        }
+
+        .middle-lower{
+            margin-top: 20px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+    justify-content: space-evenly;
+            margin-left: 40px;
+        display: flex;
+        }
+
+        .kavita{
+            background-image: url(/images/Rectangle41.png);
+            height: 300px;
+            width: 350px;
+            background-repeat: no-repeat;
+        }
+        .leena{
+            background-image: url(/images/Rectangle41.png);
+            height: 300px;
+            width: 350px;
+            background-repeat: no-repeat;
+        }
+        .preeti{
+            background-image: url(/images/Rectangle41.png);
+            height: 300px;
+            width: 350px;
+            background-repeat: no-repeat;
+        }
+.pics45{
+    height: 80px;
+}
+
+.ex{
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.para{
+    color: darkgrey;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+strong{
+    color:black;
+    margin-left: 30px;
+    height: 80px;
+}
+
+.footer1{margin: 30px;
+    width: 95%;
+    height: 400px;
+    background-image: url(/images/footer-Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    color: #ffffff;
+}
+
+.ftlogo{
+    margin-top: 20px;
+}
+
+.left-foot{
+    height: 400px;
+    width: 45%;
+    padding-top: 50px;
+    margin: 20px;
+    
+}
+
+.ftlogo2 img{
+    height: 20px;
+    margin-top: 75px;
+    margin-right: 50px;
+    margin-left: 10px;
+    display: flex;
+    float: left;
+    padding-bottom: 0;
+}
+.contact{
+    height: 400px;
+    width: 25%;
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 1.5rem;
+    
+}
+
+
+
+.contact img{
+    height: 30px;
+    color: #ffffff;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+
+.Aboutus{
+    height: 300px;
+    width: 25%;
+    padding-top: 50px;
+    font-size: 1.4rem;
+    margin-top: 35px;
+    justify-content: space-around;
+    font-weight: normal;
+    margin-left: 40px;
+    float: right;
+}
+
+.Aboutus li
+{
+list-style: none;
+line-height: 32pt;
+}
+
+.term{width: 25%;
+      height: 300px;
+      margin-top: 50px;
+      font-size: 1.4rem;
+      padding-top: 50px;
+      list-style: none;
+      justify-content: space-between;
+      line-height: 32pt;
+}
+
+    
+
+
+
+        
+    
+
+    
+
+
+    
